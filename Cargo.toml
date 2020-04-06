@@ -12,7 +12,7 @@ description = "Tensors and differentiable operations in Rust"
 documentation = "https://docs.rs/autograd/"
 
 [dependencies]
-rand = "0.7.0"
+rand = { version = "0.7", features = ["wasm-bindgen"] }
 rand_distr = "0.2.2"
 ndarray = "0.12.1"
 glob = "0.2"
